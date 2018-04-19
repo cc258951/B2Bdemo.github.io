@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-header:before, .modal-header:after, .modal-footer:before, .modal-footer:after {
+  display: table;
+  content: " ";
+}
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  letter-spacing: 1px;
+  font-family: "Microsoft Himalaya","Arial","Lucida Grande","Microsoft Yahei","Hiragino Sans GB",
+  "Hiragino Sans GB W3",SimSun,"PingFang SC",STHeiti!important;
+  color:#fff;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+;
+}
+div {
+  box-sizing: border-box;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a{
+  text-decoration: none;
+  color:white;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+li{
+  list-style-type: none;
+}
+.col-12 {
+  width: 100%;
+  float:left;
+}
+
+.col-11 {
+  width: 91.66666667%;
+  float:left;
+}
+
+.col-10 {
+  width: 83.33333333%;
+  float:left;
+}
+
+.col-9 {
+  width: 75%;
+  float:left;
+}
+
+.col-8 {
+  width: 66.66666667%;
+  float:left;
+}
+
+.col-7 {
+  width: 58.33333333%;
+  float:left;
+}
+
+.col-6 {
+  width: 50%;
+  float:left;
+}
+
+.col-5 {
+  width: 41.66666667%;
+  float:left;
+}
+
+.col-4 {
+  width: 33.33333333%;
+  float:left;
+}
+
+.col-3 {
+  width: 25%;
+  float:left;
+}
+
+.col-25 {
+  width: 20%;
+  float:left;
+}
+
+.col-2 {
+  width: 16.66666667%;
+  float:left;
+}
+
+.col-1 {
+  width: 8.33333333%;
+  float:left;
+}
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12,.col-25{
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+h1,
+.h1 {
+  font-size: 56px;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  margin: 0;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+}
+
+h5,
+.h5 {
+  font-size: 18px;
+}
+
+h6,
+.h6 {
+  font-size: 14px;
+}
+
+.h7 {
+  font-size: 80px;
+}
+
+input,
+select,
+textarea {
+  font: 16px/1.5 Microsoft YaHei, tahoma, arial, Hiragino Sans GB, sans-serif;
+  outline: none;
+  padding: 0 10px;
+  width: 100%;
+}
+hr{
+  border:0;
+  margin: 0;
+}
+
+input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #999;
+}
+
+input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #999;
+}
+
+input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #999;
+}
+
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #999;
+}
+
+.textLeft{
+  text-align: left!important;
+}
+.textCenter{
+  text-align: center!important;
+  margin: 0 auto!important;
+}
+.textRight{
+  text-align: right!important;
+}
+.marginHeader{
+  position: relative;
+  top:250px;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.font-style-1{
+  -webkit-box-reflect: below 0 -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.3)));
+}
+.btn-style-1{
+  border: none;
+  border-radius: 20px;
+  padding: 0 12%;
+  margin: 10px 0;
+  height:30px;
+}
+.btn-style-2{
+  padding: 5px 10%;
+  border-radius: 20px;
+  margin: 20px 0 16px 0;
+  height: 35px;
+}
+.color-style-1{
+  background: #ad9f50;
+}
+.color-style-2{
+  background: rgba(255,255,255,0.13);
+}
+
