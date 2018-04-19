@@ -1,0 +1,412 @@
+@media only screen and (max-width: 1050px) {
+  body {
+    font-size: 14px;
+  }
+  .header li:hover,.header li.active{
+    border-top: none;
+  }
+  .header ul:nth-child(1) {
+    border-top: none;
+    margin-top: 0;
+  }
+  .dropdown-menu {
+     left: 0;
+    min-width: 100%;
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(135deg, #08111c, #1e3d67); */
+    background: url(../../static/images/vic/index/bg.jpg) no-repeat;
+    background-position: 50%;
+    background-size: auto 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .logo{
+    height:46%;
+  }
+  .logo li div {
+    width:50%;
+  }
+  .menu{
+    display: block;
+  }
+  .titleLogo{
+    width:100%;
+    text-align: left;
+    padding-left: 50px;
+  }
+  .titleList{
+    width:100%!important;
+    text-align:center;
+    margin: 0 auto;
+    display: none;
+    z-index: 9999;
+    /*background-color: rgba(33,44,71,0.9);*/
+    background-color: #212c47;
+  }
+  .titleList ul{
+    text-align:center;
+    margin: 0 auto;
+    border:none;
+  }
+  .titleList li:hover{
+    border:none;
+  }
+  .titleList li{
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+  }
+  .footer .container>div{
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+  }
+  .footer ul {
+    text-align: center;
+    margin: 20px 0 10px 0;
+  }
+
+
+  /*about*/
+  .block li{
+    position: relative;
+    top:50px;
+    height:300px;
+    overflow: hidden;
+    -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+    transition: .5s;
+    padding-right:0;
+    padding-left: 0;
+    width:33.333333%;
+    float:left;
+  }
+  .block li{
+    position: relative;
+    top:50px;
+    height:300px;
+    overflow: hidden;
+    -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+    transition: .5s;
+    padding-right:0;
+    padding-left: 0;
+    width:100%;
+    float:left;
+  }
+  .block h2{
+    margin-top: 120px;
+  }
+  .block li:nth-child(2){
+    background: #152b47;
+    box-shadow: 0 10px 15px #0d1f33;
+  }
+  .block li:nth-child(1)::after,.block li:nth-child(3)::after{
+    content:'';
+    background:transparent;
+    width:0;
+    height:0;
+  }
+  .block li div{
+    display:none;
+    font-family: 'STHeiti*';
+  }
+  .block li.unactive{
+    width:100%;
+    height:300px;
+  }
+  .block li.active:hover{
+    width:100%;
+    height:400px;
+  }
+  .block li div.active{
+    display: block;
+  }
+  .blockContent{
+    position: absolute;
+    top:150px;
+    width:80%;
+    left:10%;
+  }
+  .block li:nth-child(3) .blockContent{
+    top:100px;
+  }
+  .block{
+    width:100%;
+  }
+  .block>div{
+    width:100%;
+  }
+  .home-video{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -10%;
+  }
+
+  /*contact*/
+  .contact_formBox{
+    width:100%!important;
+  }
+  .contact_msg{
+    width:100%!important;
+  }
+  .productContent{
+    width: 100% !important;
+    margin-top: 10px;
+    clear: both;
+    border: none;
+  }
+  .productType{
+    width:50%;
+    margin-bottom: 80px;
+  }
+  .productType img{
+    width:100%;
+    min-width: 285px;
+    height:auto;
+  }
+  .mainbar{
+    width:100%;
+    padding: 100px 0;
+  }
+  .mainbar ul{
+    position: relative;
+    width:100%;
+    height:1px;
+    left:7px;
+    background: #fff;
+  }
+  .mainbar ul::after{
+    content:'';
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left:-10px;
+    top:-10px;
+  }
+  .mainbar li{
+    width:20%;
+    position: relative;
+    white-space: nowrap;
+    float:left;
+    text-align: center;
+    top:30px;
+    left:0;
+  }
+  .service::before,.backSystem::before,.Wboard::before,.website::before,.api::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 48%;
+    top: -34px;
+  }
+  .service::after,.backSystem::after,.Wboard::after{
+    content: '';
+    width: 0;
+    height: 0;
+  }
+  .website::after{
+    content: '';
+    width: 0;
+    height: 0;
+  }
+  .api::after{
+    content: '';
+    width: 0;
+    height: 0;
+  }
+  .product_intro_list{
+    width:100%;
+    height:300px;
+    margin-bottom: 15px;
+  }
+
+  .product_intro_content{
+    width:100%;
+  }
+  /*service*/
+  .product_illustrate1{
+    position: absolute;
+    width:90%;
+    left: 70%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url("../../static/images/vic/static/product/icon2-2.png")no-repeat;
+    background-size: auto;
+    background-position-x: 120px;
+    top: 50px;
+  }
+
+  .product_illustrate1 li{
+    width:100%;
+    text-align: center;
+    margin:0 auto;
+    float:left;
+    padding-bottom: 116px;
+    font-size: 15px;
+    position: relative;
+  }
+  .product_illustrate1 li div{
+    position: relative;
+    text-align: left;
+    white-space: normal;
+    height: 20px;
+    top: 55px;
+    left: 300px;
+    transition: 1s;
+    display: block;
+    width: 25%;
+  }
+  .product_illustrate1 li:hover::after{
+    content:'';
+    border-width: 0;
+  }
+  .product_illustrate1 li::before{
+    content:'';
+    border-style: solid;
+    border-width: 6.5px 0 6.5px 8px;
+    border-color: transparent transparent transparent #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 255px;
+    -webkit-animation: animate1 0.5s infinite; /* Safari 4.0 - 8.0 */
+    animation: animate1 0.5s infinite;
+  }
+  .serviceTitle {
+    position: absolute;
+    left: 20px;
+    top: 55px;
+    width: 20%;
+    letter-spacing: 1px;
+  }
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes animate1 {
+    0%   {left: 255px;}
+    100% {left: 280px;}
+  }
+
+  /* Standard syntax */
+  @keyframes animate1 {
+    0%   {left: 255px;}
+    100% {left: 280px;}
+  }
+
+  /*API*/
+  .product_API ul{
+    width: auto;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    float: none;
+    padding: 40px 0 1% 0;
+    border:none;
+  }
+  .product_API li{
+    position: relative;
+    width: 35%;
+    display: none;
+    padding: 12px 0;
+    font-size: 25px;
+    min-width: 320px;
+  }
+  .product_API li:hover::after,.product_API li.active::after{
+    left: 35px;
+    top: 13px;
+  }
+  .product_API li.active,.product_API li.active2,.product_API div{
+    display: block;
+  }
+  .product_API li.active{
+    background-color: transparent!important;
+    border-bottom: 1px solid #ffffff;
+  }
+  .product_API li.active2{
+    background-color: rgba(62,58,57,0.25);
+    border-bottom: 1px solid rgba(255,255,255,0.65);
+  }
+  .vender li{
+    width: 50%;
+  }
+
+  /*information*/
+  .info-content li{
+    width:49%;
+  }
+
+
+}
+
+@media only screen and (min-width: 1052px) {
+  .titleList{
+    display: block;
+  }
+}
+@media only screen and (max-width: 875px) {
+  .kv-page li {
+    width: 45px;
+  }
+  .info-content li {
+    width: 100%;
+    height:auto;
+  }
+  .info-content h6{
+    display: none;
+  }
+  .infoMainbar li {
+    margin: 20px 0;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .community li {
+    width:100%;
+  }
+  .contact_msg img{
+    width:82%;
+  }
+  .contact_msg .col-6{
+    width: 100%!important;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .productType {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  .mainbar .h2{
+    font-size: 24px;
+  }
+  .mainbar .h3{
+    font-size: 16px;
+  }
+  .product_illustrate1{
+    left: 60%;
+  }
+  .form-group .col-6{
+    width:100%;
+  }
+  .form-group .col-6:nth-child(1){
+    margin-bottom: 15px;
+  }
+  .form-group .col-4:nth-child(1){
+    width:66.6666%;
+  }
+  .form-group img{
+    width:100%;
+    height:47px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .prev,.next{
+    top:130px
+  }
+
+}
