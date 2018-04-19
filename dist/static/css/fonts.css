@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?sr1j3k');
+  src:  url('../fonts/icomoon.eot?sr1j3k#iefix') format('embedded-opentype'),
+  url('../fonts/icomoon.ttf?sr1j3k') format('truetype'),
+  url('../fonts/icomoon.woff?sr1j3k') format('woff'),
+  url('../fonts/icomoon.svg?sr1j3k#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-1:before {
+  content: "\e900";
+}
+.icon-2:before {
+  content: "\e901";
+}
+.icon-3:before {
+  content: "\e902";
+}
+.icon-4:before {
+  content: "\e903";
+}
+.icon-5:before {
+  content: "\e904";
+}
+.icon-1,.icon-2,.icon-3,.icon-4,.icon-5{
+  vertical-align: middle;
+  display: inline-block;
+  padding-right: 15px;
+  color:rgba(255,255,255,0.28);
+}
+.infoMainbar li:hover .icon-1,
+.infoMainbar li:hover .icon-2,
+.infoMainbar li:hover .icon-3,
+.infoMainbar li:hover .icon-4,
+.infoMainbar li:hover .icon-5{
+  color:rgba(255,255,255,0.9);
+}
+.infoMainbar li.active .icon-1,
+.infoMainbar li.active  .icon-2,
+.infoMainbar li.active  .icon-3,
+.infoMainbar li.active  .icon-4,
+.infoMainbar li.active  .icon-5{
+  color:rgba(255,255,255,0.9);
+}
