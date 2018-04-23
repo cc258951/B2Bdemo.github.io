@@ -189,7 +189,7 @@
     top:-10px;
   }
   .mainbar li{
-    width:20%;
+    width:16%;
     position: relative;
     white-space: nowrap;
     float:left;
@@ -197,7 +197,7 @@
     top:30px;
     left:0;
   }
-  .service::before,.backSystem::before,.Wboard::before,.website::before,.api::before{
+  .service::before,.backSystem::before,.Wboard::before,.website::before,.api::before,.finance::before{
     content: '';
     width: 10px;
     height: 10px;
@@ -207,7 +207,7 @@
     left: 48%;
     top: -34px;
   }
-  .service::after,.backSystem::after,.Wboard::after{
+  .service::after,.backSystem::after,.Wboard::after,.finance::after{
     content: '';
     width: 0;
     height: 0;
@@ -365,27 +365,14 @@
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 530px) {
-  .community li {
-    width:100%;
-  }
-  .contact_msg img{
-    width:82%;
-  }
-  .contact_msg .col-6{
-    width: 100%!important;
-  }
-}
+
 @media only screen and (max-width: 710px) {
   .productType {
     width: 100%;
     margin-bottom: 5%;
   }
-  .mainbar .h2{
-    font-size: 24px;
-  }
-  .mainbar .h3{
-    font-size: 16px;
+  .mainbar li{
+    font-size: 20px;
   }
   .product_illustrate1{
     left: 60%;
@@ -408,5 +395,35 @@
   .prev,.next{
     top:130px
   }
+}
+@media only screen and (max-width: 530px) {
+  .community li {
+    width:100%;
+  }
+  .contact_msg img{
+    width:82%;
+  }
+  .contact_msg .col-6{
+    width: 100%!important;
+  }
+  .mainbar li{
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .menu {
+    position: absolute;
+    top: 15px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+  .titleLogo {
+    text-align: center;
+    padding-left: 15px;
+  }
+  .FaloLogo {
+    margin-top: 70px;
+    width:100%;
 
+  }
 }

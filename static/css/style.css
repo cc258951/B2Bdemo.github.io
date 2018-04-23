@@ -643,11 +643,16 @@ ul.block{
 }
 .api{
   left: -155px;
-  top: 395px;
+  top: 355px;
   font-size: 32px;
 }
+.finance{
+  left: 30px;
+  top: 410px;
+  font-size: 24px;
+}
 
-.service::before,.backSystem::before,.Wboard::before{
+.service::before,.backSystem::before,.Wboard::before,.finance::before{
   content: '';
   width: 10px;
   height: 10px;
@@ -657,7 +662,7 @@ ul.block{
   left:-12px;
   top: 1px;
 }
-.service::after,.backSystem::after,.Wboard::after{
+.service::after,.backSystem::after,.Wboard::after,.finance::after{
   content: '';
   width: 47px;
   height: 1px;
@@ -885,6 +890,8 @@ ul.block{
   max-width: 975px;
   box-shadow: 3px 1px 20px #0e0e0e;
 }
+
+/*Wboard*/
 .board{
   position: relative;
   perspective-origin:center center;
@@ -942,6 +949,22 @@ ul.block{
 }
 .bo5{
   left:80%;
+}
+.board>div.active{
+  position: relative;
+  left:50%;
+  width:100%;
+  z-index: 9999;
+  transform:translateX(-50%) translateY(0) rotateY(0);
+  -moz-transform:translateX(-50%) translateY(0) rotateY(0);
+  -webkit-transform:translateX(-50%) translateY(0) rotateY(0);
+}
+.wDemo{
+  position: fixed;
+
+}
+.wDemo img{
+
 }
 
 /*API*/
@@ -1132,6 +1155,12 @@ ul.block{
   text-align: center;
   min-height: 785px;
   line-height: 30px;
+  display: block;
+}
+.info-content ul{
+  display: none;
+}
+.info-content ul.active{
   display: block;
 }
 .info-content li{
