@@ -13,9 +13,9 @@ return [
             'required' => '姓名不得為空',
             'max'      => '姓名不得大於 max 個字元',
         ],
-        'phone' => [
-            'required' => '聯絡電話不得為空',
-            'max'      => '聯絡電話不得大於 max 個字元',
+        'Skype' => [
+            'required' => 'skype不得為空',
+            'max'      => 'skype不得大於 max 個字元',
         ],
         'qq' => [
             'required' => 'QQ不得為空',
@@ -50,9 +50,9 @@ return [
             'required' => '姓名不得为空',
             'max'      => '姓名不得大于 max 个字元',
         ],
-        'phone' => [
-            'required' => '联络电话不得为空',
-            'max'      => '联络电话不得大于 max 个字元',
+        'Skype' => [
+            'required' => 'skype不得为空',
+            'max'      => 'skype不得大于 max 个字元',
         ],
         'qq' => [
             'required' => 'QQ不得为空',
@@ -87,9 +87,9 @@ return [
             'required' => 'The Fullname field is required',
             'max'      => 'The Fullname field may not be greater than max characters.',
         ],
-        'phone' => [
-            'required' => 'The Contact Number field is required',
-            'max'      => 'The Contact Number field may not be greater than max characters.',
+        'Skype' => [
+            'required' => 'The skype field is required',
+            'max'      => 'The skype field may not be greater than max characters.',
         ],
         'qq' => [
             'required' => 'The QQ field is required',

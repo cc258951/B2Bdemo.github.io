@@ -43,7 +43,7 @@ class Helper {
             ['title' => '填寫時間', 'value' => $request['time']],
             ['title' => 'IP', 'value' => $request['ip']],
             ['title' => '姓名', 'value' => $request['name']],
-            ['title' => '聯絡電話', 'value' => $request['phone']],
+            ['title' => 'Skype', 'value' => $request['Skype']],
             ['title' => 'QQ', 'value' => $request['qq']],
             ['title' => '微信', 'value' => $request['wechat']],
             ['title' => '信箱', 'value' => $request['email']],

@@ -29,7 +29,7 @@ $request  = $errorMessage = [];
 // 聯絡我們參數 ['name' => 參數名稱, 'max' => 資料上限]
 $field = [
     ['name' => 'name', 'max' => 20],
-    ['name' => 'phone', 'max' => 20],
+    ['name' => 'Skype', 'max' => 20],
     ['name' => 'qq', 'max' => 100],
     ['name' => 'wechat', 'max' => 100],
     ['name' => 'email', 'max' => 100],

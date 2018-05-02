@@ -560,6 +560,9 @@ ul.block{
   font-size: 1.2em;
   margin-bottom: 5px;
 }
+.contact_form p{
+  text-align: left;
+}
 .contact_form .form-textarea {
   height: 150px;
 }
@@ -1201,7 +1204,7 @@ ul.block{
   margin: 25px 0;
 }
 .info-content-open ul{
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 50%;
   text-align: center;
