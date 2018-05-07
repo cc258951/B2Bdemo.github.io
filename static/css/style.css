@@ -454,6 +454,23 @@ a:hover{
   padding-bottom: 30px;
   padding-top: 10px;
 }
+.footer .toTop{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 3%;
+  bottom: 7%;
+  z-index: 5;
+  background: rgba(77,77,77,0.73);
+  text-align: center;
+  margin:0 auto;
+  padding: 0;
+  cursor:pointer;
+}
+.footer .toTop img{
+  margin-top: 13px;
+  width: 30px;
+}
 
 /*about*/
 .block{
