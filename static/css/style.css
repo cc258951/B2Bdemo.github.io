@@ -67,6 +67,7 @@ div{
 }
 .hidden{
   display: none;
+  transition: 0.7s;
 }
 
 
@@ -1177,6 +1178,7 @@ ul.block{
   margin-right: 0.5%;
   margin-bottom: 5px;
   float:left;
+  transition: 1s;
 }
 .info-content img{
   width:100%;
@@ -1184,6 +1186,9 @@ ul.block{
 .info-content li div{
   text-align: left;
   padding: 2px 10px;
+}
+.info-content li h6{
+  color:#cacaca;
 }
 /*info open content*/
 .info-content-open{
