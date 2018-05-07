@@ -1259,5 +1259,10 @@ ul.block{
   line-height: 35px;
   cursor: pointer;
 }
+.limitText{
+  text-overflow : ellipsis;
+  white-space: nowrap;
+  overflow:hidden;
+}
 
 
