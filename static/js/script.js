@@ -56,14 +56,16 @@ $(function () {
   $(window).scroll(function () {
     var scrollVal = $(this).scrollTop();
     //console.log(scrollVal);
-    if( scrollVal != 0 ){
+    if( scrollVal !== 0 ){
       $('.header').css('background-color','rgba(21,25,45,0.88)');
       //$('.FaloLogo').css({ fill: "#a58316" });
       $(".FaloLogo").attr("src","../../../static/images/logoW2.png");
+      $('.toTop').fadeIn();
     }else{
       $('.header').css('background-color','transparent');
       //$('.FaloLogo path').css({ fill: "#fff" });
       $(".FaloLogo").attr("src","../../../static/images/logoW.png");
+      $('.toTop').fadeOut();
     }
   });
 });
@@ -80,6 +82,7 @@ $(function () {
     }
   });
 });
+
 
 
 

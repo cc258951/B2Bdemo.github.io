@@ -466,6 +466,7 @@ a:hover{
   margin:0 auto;
   padding: 0;
   cursor:pointer;
+  display: none;
 }
 .footer .toTop img{
   margin-top: 13px;
